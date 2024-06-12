@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    margin: 30px;
+    display: inline-block;
+    width: 25%;
+    padding: 15px;
+    background-color: burlywood ;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.book-container h2{
+    color: darkmagenta;
+}
+.book-container button{
+    background-color: lightseagreen;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.plusbutton{
+    position: fixed;
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 40px;
+    border: none;
+    right: 30px;
+    bottom: 30px;
+}
+.plusbutton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+.popupcontainer{
+background-color: antiquewhite;
+width: 40%;
+padding: 20px;
+position: absolute;
+top: 30%;
+left: 30%;
+border-radius: 20px;
+display: none;
+box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.popupcontainer input{
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 10px;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+.popupcontainer textarea{
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 10px;
+    border: solid black 1px;
+}
+#inputauthorname{
+    margin-top: 10px;
+}
+#inputdiscription{
+    margin-top: 10px;
+}
+.cancelbutton{
+    margin-left: 20px;
+    margin-top: 10px;
+border: none;
+color: white;
+background-color: black;
+font-size: 15px;
+padding: 10px;
+border-radius: 15px;
+}
+.addbutton{
+    margin-left: 10px;
+    margin-top: 10px;
+border: none;
+color: white;
+background-color: black;
+font-size: 15px;
+padding: 10px;
+border-radius: 15px;
+}
+.popupheader{
+    text-align: center;
+}
+.addbutton:hover{
+    cursor: pointer;
+}
+.cancelbutton:hover{
+    cursor: pointer;
+}
+.deletebutton:hover{
+    cursor: pointer;
+}
